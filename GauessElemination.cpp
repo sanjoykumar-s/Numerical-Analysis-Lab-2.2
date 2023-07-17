@@ -7,6 +7,7 @@ void GaussElimination() {
     cin >> n;
     double a[n][n+2];
     cout << "Enter the co-efficients\n";
+    // Equations like  ax + by + cz = d
     for(int i=0;i<n;i++) {
         for(int j=0;j<n+1;j++) {
             cin >> a[i][j];
